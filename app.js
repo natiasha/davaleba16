@@ -35,8 +35,12 @@ function number(f, a) {
   let  codes=["GEL", "EUR", "USD", "FR", "YEN", "YUAN"];
   let r = getCurrencySymbolFromCode(h,codes);
   console.log(r);
-  
-  
+
+  //3
+      let str = "MY NAME IS JOHN";
+   rezult=str.toLowerCase(str);
+  console.log(rezult);
+    
   //4
   function evennumber(g, m) {
   let output = [];
