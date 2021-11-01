@@ -24,11 +24,11 @@ function number(f, a) {
     return code;
   }
   let h = function(k) {
-         if (k='EUR')           
+         if (k=='EUR')           
        return  '€';
-       else if (k='USD')
+       else if (k=='USD')
      return '$';
-    else if (k='GEL')
+    else if (k=='GEL')
      return '₾'
      else return undefined;
  }
